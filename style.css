@@ -1,0 +1,19 @@
+/* seletor global = seleciona tudo da pagina ou determinado lugar  */
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* seletor pela tag*/
+
+p {
+    color: red;
+}
+/* seletor pela class */
+
+.paragrafo{
+    border: 1px solid cyan;
+    color: blue;
+}

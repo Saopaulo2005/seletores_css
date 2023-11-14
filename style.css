@@ -10,10 +10,37 @@
 
 p {
     color: red;
+
 }
 /* seletor pela class */
 
 .paragrafo{
     border: 1px solid cyan;
     color: blue;
+    margin-top: 1rem;
+}
+
+#titulo{
+    color: #0F0;
+    margin-bottom: 1rem;
+}
+/* seletor por id  */
+/* seletor pelo atributo */
+input[type="password"]{
+    font-size: 3rem;
+}
+/* seltor por descente*/
+.login-form input{
+    font-size: 2rem;
+    color: red;
+}
+/* filhos */
+.login-form > input{
+    width: 10rem;
+    color: #0F0;
+}
+/* pseudo-classes */
+.cadastro-form div:nth-last-of-type(2){
+   background: blue;
+   
 }
